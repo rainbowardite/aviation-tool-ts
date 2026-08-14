@@ -4,7 +4,7 @@ export default defineConfig({
   base: '/aviation-tool-ts/',
   build: {
       outDir: 'docs',
-      emptyOutDir: true, // Clears the folder before building
+      emptyOutDir: true,
     },
   plugins: [
     tailwindcss(),
