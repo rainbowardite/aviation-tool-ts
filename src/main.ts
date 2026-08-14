@@ -1,5 +1,5 @@
-import { setupDropdown } from './dropdown'
-import { clearAll } from './clear'
+import { setupDropdown } from './dropdown.js'
+import { clearAll } from './clear.js'
 import './style.css'
 //import heroImg from './assets/hero.png'
 
