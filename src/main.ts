@@ -236,7 +236,7 @@ if (!isAirportDisplayHidden) {
   //potential_airports_list_display.classList.add("hidden");
 }
 
-clear_button.addEventListener("click", (event: MouseEvent) => {
+clear_button.addEventListener("click", () => {
   clearAll(
     document.querySelector<HTMLInputElement>("#departure_code")!,
     document.querySelector<HTMLDivElement>("#departure_data")!,
